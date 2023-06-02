@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -164.17191831270665,
-    "scrollLeft": -244.1666569643553,
+    "scrollTop": -202.50261992878333,
+    "scrollLeft": -33.33333200878573,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -417,8 +417,8 @@
             "id": "9713e978-b6e6-4329-867a-e1f783d935fc"
           },
           {
-            "name": "RECHECK_CODE",
-            "comment": "",
+            "name": "RECHECK_CODE_ID",
+            "comment": "재검진 코드 아이디",
             "dataType": "",
             "default": "",
             "option": {
@@ -432,8 +432,8 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 110.3544921875,
-              "widthComment": 60,
+              "widthName": 130.58447265625,
+              "widthComment": 113.2236328125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -444,7 +444,7 @@
           "active": false,
           "left": 68.5419,
           "top": 650.8388,
-          "zIndex": 374,
+          "zIndex": 387,
           "widthName": 65.5654296875,
           "widthComment": 60
         },
@@ -479,8 +479,8 @@
             "id": "70a3aedf-5332-404a-8db1-25b09f5ff288"
           },
           {
-            "name": "RECHECK_CODE",
-            "comment": "",
+            "name": "RECHECK_CODE_ID",
+            "comment": "재검진코드 아이디",
             "dataType": "",
             "default": "",
             "option": {
@@ -494,8 +494,8 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 110.3544921875,
-              "widthComment": 60,
+              "widthName": 130.58447265625,
+              "widthComment": 109.61181640625,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -506,7 +506,7 @@
           "active": false,
           "left": 702.9168,
           "top": 593.5467,
-          "zIndex": 373,
+          "zIndex": 384,
           "widthName": 110.3544921875,
           "widthComment": 67
         },
@@ -591,7 +591,7 @@
           "columnIds": [
             "9713e978-b6e6-4329-867a-e1f783d935fc"
           ],
-          "x": 318.380523046875,
+          "x": 324.880523046875,
           "y": 650.8388,
           "direction": "top"
         },
@@ -617,7 +617,7 @@
           "columnIds": [
             "11839739-cd58-4d3e-a96a-113d6705db6c"
           ],
-          "x": 568.2191460937499,
+          "x": 581.2191460937499,
           "y": 716.0888,
           "direction": "right"
         },
