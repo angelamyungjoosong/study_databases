@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -180.8333261476629,
-    "scrollLeft": -53.3333312140574,
-    "zoomLevel": 0.8,
+    "scrollTop": -182.49999274810193,
+    "scrollLeft": -79.9999968210857,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -178,7 +178,7 @@
             "id": "a62e5139-0bf0-438e-a460-71c3443e4a25"
           },
           {
-            "name": "CARS_OPTIONS_ID",
+            "name": "CARS_OPTIONS_CODE_ID",
             "comment": "자동차 옵션 ID",
             "dataType": "VARCHAR",
             "default": "",
@@ -193,7 +193,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 124.08447265625,
+              "widthName": 168.87353515625,
               "widthComment": 87.2236328125,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -201,7 +201,7 @@
             "id": "6106a726-6758-4409-ad31-83eae3e04e40"
           },
           {
-            "name": "CARS_OPTIONS_CODE",
+            "name": "CARS_OPTIONS_CODE_ID",
             "comment": "자동차 옵션 코드",
             "dataType": "VARCHAR",
             "default": "",
@@ -216,19 +216,19 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 148.6435546875,
+              "widthName": 168.87353515625,
               "widthComment": 100.2236328125,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
-            "id": "38951f69-d680-4be6-9f68-e964cc72990d"
+            "id": "a74de0ce-e86d-4e42-9ad2-533ca1e5e92b"
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 10.8335,
           "top": 436.6665,
-          "zIndex": 141,
+          "zIndex": 312,
           "widthName": 103.8544921875,
           "widthComment": 70.61181640625
         },
@@ -263,7 +263,7 @@
             "id": "54e46342-8c20-4a8d-b53c-5c450ada2b0a"
           },
           {
-            "name": "CARS_OPTIONS_CODE",
+            "name": "CARS_OPTIONS_CODE_ID",
             "comment": "자동차 옵션 코드",
             "dataType": "VARCHAR",
             "default": "",
@@ -278,7 +278,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 148.6435546875,
+              "widthName": 168.87353515625,
               "widthComment": 100.2236328125,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -290,7 +290,7 @@
           "active": false,
           "left": 26.6666,
           "top": 705.0001,
-          "zIndex": 139,
+          "zIndex": 311,
           "widthName": 148.6435546875,
           "widthComment": 103.83544921875
         },
@@ -591,39 +591,13 @@
           "columnIds": [
             "a62e5139-0bf0-438e-a460-71c3443e4a25"
           ],
-          "x": 251.06738671875002,
+          "x": 261.182376953125,
           "y": 436.6665,
           "direction": "top"
         },
         "constraintName": "fk_cars_to_cars_options",
         "visible": true,
         "id": "d548b681-48c1-430c-921b-2cdcee26679e"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "0480ce72-c397-4148-9df1-fe792367544a",
-          "columnIds": [
-            "f0546459-5fe7-4d58-add3-ff30b743660b"
-          ],
-          "x": 266.90048671875,
-          "y": 705.0001,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "91e9622a-44eb-4c3a-8a96-17a91cf20d3a",
-          "columnIds": [
-            "38951f69-d680-4be6-9f68-e964cc72990d"
-          ],
-          "x": 251.06738671875002,
-          "y": 567.1665,
-          "direction": "bottom"
-        },
-        "constraintName": "fk_cars_options_code_to_cars_options",
-        "visible": true,
-        "id": "58931ddd-5cd8-420b-ae70-5ae796a021c7"
       },
       {
         "identification": false,
@@ -702,6 +676,32 @@
         "constraintName": "fk_cars_names_to_cars",
         "visible": true,
         "id": "ecf8b33c-419b-4c16-a447-a0b592c0a506"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0480ce72-c397-4148-9df1-fe792367544a",
+          "columnIds": [
+            "f0546459-5fe7-4d58-add3-ff30b743660b"
+          ],
+          "x": 277.015476953125,
+          "y": 705.0001,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "91e9622a-44eb-4c3a-8a96-17a91cf20d3a",
+          "columnIds": [
+            "a74de0ce-e86d-4e42-9ad2-533ca1e5e92b"
+          ],
+          "x": 261.182376953125,
+          "y": 567.1665,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_cars_options_code_to_cars_options",
+        "visible": true,
+        "id": "6f3e90c6-990a-456b-8a88-428aaa8c994a"
       }
     ]
   }
