@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -203.61110302033313,
-    "scrollLeft": -143.33332763777872,
+    "scrollTop": -264.44443393636715,
+    "scrollLeft": -274.9999890724821,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -91,29 +91,6 @@
               "widthDefault": 60
             },
             "id": "a2d7ec4a-4c60-47bd-a5ce-8d94991974e5"
-          },
-          {
-            "name": "ADDRESS",
-            "comment": "주소",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 64.84814453125,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "25db71f9-4f16-4731-9a51-ddee445ae119"
           },
           {
             "name": "PHONENUMBER",
@@ -212,7 +189,7 @@
           "active": false,
           "left": 83.3334,
           "top": 230.6252,
-          "zIndex": 70,
+          "zIndex": 10,
           "widthName": 164.98876953125,
           "widthComment": 60
         },
@@ -297,7 +274,7 @@
           "active": false,
           "left": 773.7052,
           "top": 336.2492,
-          "zIndex": 73,
+          "zIndex": 7,
           "widthName": 115.41357421875,
           "widthComment": 70.61181640625
         },
@@ -359,7 +336,7 @@
           "active": false,
           "left": 631.204,
           "top": 539.793,
-          "zIndex": 23,
+          "zIndex": 2,
           "widthName": 104.58447265625,
           "widthComment": 60
         },
@@ -421,7 +398,7 @@
           "active": false,
           "left": 0,
           "top": 553.0559,
-          "zIndex": 11,
+          "zIndex": 1,
           "widthName": 120.47265625,
           "widthComment": 61.22998046875
         },
@@ -483,7 +460,7 @@
           "active": false,
           "left": 335.6256,
           "top": 8.541,
-          "zIndex": 57,
+          "zIndex": 3,
           "widthName": 102.4072265625,
           "widthComment": 61.2236328125
         },
@@ -545,7 +522,7 @@
           "active": false,
           "left": 695.4166,
           "top": 166.2502,
-          "zIndex": 58,
+          "zIndex": 4,
           "widthName": 109.63720703125,
           "widthComment": 60
         },
@@ -563,7 +540,7 @@
           "active": false,
           "left": 1184.58329420951,
           "top": 493.95831767883726,
-          "zIndex": 64,
+          "zIndex": 5,
           "width": 155.3333322074679,
           "height": 100
         },
@@ -583,7 +560,7 @@
             "5e760ede-0620-4ff3-96a4-ae49a0f7c34b"
           ],
           "x": 527.9193375,
-          "y": 390.0002,
+          "y": 374.6252,
           "direction": "right"
         },
         "end": {
@@ -635,7 +612,7 @@
             "5e760ede-0620-4ff3-96a4-ae49a0f7c34b"
           ],
           "x": 305.62636875,
-          "y": 443.1252,
+          "y": 422.6252,
           "direction": "bottom"
         },
         "end": {
@@ -696,7 +673,7 @@
             "9fe0c2ee-783d-462b-90fd-e5a391af890f"
           ],
           "x": 527.9193375,
-          "y": 283.7502,
+          "y": 278.6252,
           "direction": "right"
         },
         "constraintName": "fk_address_code_to_member information",
