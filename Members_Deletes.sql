@@ -1,29 +1,6 @@
--- DELETE FROM table_name WHERE condition;
-DELETE FROM members_hobby 
-WHERE MEMBERS_ID = 'M-02';
-DELETE FROM members_hobby 
-WHERE MEMBERS_ID = 'M-03';
-DELETE FROM members_hobby 
-WHERE MEMBERS_ID = 'M-04';
-DELETE FROM members_hobby 
-WHERE MEMBERS_ID = 'M-05';
-
-
-DELETE FROM membewrs_login
-WHERE MEMBERS_ID = 'M-02';
-DELETE FROM membewrs_login
-WHERE MEMBERS_ID = 'M-03';
-DELETE FROM membewrs_login
-WHERE MEMBERS_ID = 'M-04'; 
-DELETE FROM membewrs_login
-WHERE MEMBERS_ID = 'M-05'; 
-
-DELETE FROM members
-WHERE MEMBERS_ID = 'M-02';
-DELETE FROM members
-WHERE MEMBERS_ID = 'M-03';
-DELETE FROM members
-WHERE MEMBERS_ID = 'M-04';
-DELETE FROM members
-WHERE MEMBERS_ID = 'M-05';
-
+DELETE FROM members_hobby ;
+DELETE FROM membewrs_login ;
+DELETE FROM hobby_code ;
+DELETE FROM members ;
+DELETE FROM address_code ;
+DELETE FROM gender_code ;
