@@ -3,11 +3,12 @@
 -- 조건 : CustomerName별로 주문 갯수 표시
 -- 연결 키는 각자 찾기
  
-SELECT COUNT(*), T_CUSTOMERS.CustomerID
+
+SELECT COUNT(*), T_CUSTOMERS.CustomerName
 FROM CUSTOMERS AS T_CUSTOMERS
 INNER JOIN ORDERS AS T_ORDERS 
 ON T_CUSTOMERS.CustomerID = T_ORDERS.CustomerID
-GROUP BY T_CUSTOMERS.CustomerID;
+GROUP BY T_CUSTOMERS.CustomerName;
 
 -- Number of Records: 74 
 -- COUNT(*)	CustomerID
