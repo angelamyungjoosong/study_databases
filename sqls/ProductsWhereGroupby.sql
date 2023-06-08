@@ -7,3 +7,11 @@ FROM (SELECT count(T_PROD.CategoryID) as CNT_CategoryID,  T_PROD.CategoryID
 FROM Products as T_PROD
 GROUP BY T_PROD.CategoryID) as T_INNER_PROD
 WHERE T_INNER_PROD.CNT_CategoryID >= 10;
+
+-- Number of Records: 5
+-- CNT_CategoryID	CategoryID
+-- 12	1
+-- 12	2
+-- 13	3
+-- 10	4
+-- 12	8
