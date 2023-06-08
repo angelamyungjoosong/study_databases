@@ -87,3 +87,9 @@ COUNT(*)	CustomerName
 1	Wilman Kala
 1	Wolski
 
+--검증 해야함 
+-- select*
+-- where customername = 'Around the Horn';
+select *
+from Orders 
+where CustomerID = 4 ; 
