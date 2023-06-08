@@ -20,3 +20,13 @@ FROM
 -- Number of Records: 1
 -- MAX_ORDER	LastName	FirstName
 -- 40	Peacock	Margaret
+
+-----
+SELECT MAX(T_INNER.CNT), T_INNER.EmployeeID, T_INNER.LastName
+FROM(
+SELECT COUNT(*) AS CNT, T_EMPS.EmployeeID,  T_EMPS.LastName
+FROM Employees AS T_EMPS     
+	INNER JOIN Orders AS T_ORDS
+	ON T_EMPS.EmployeeID = T_ORDS.EmployeeID
+GROUP BY T_EMPS.EmployeeID
+)AS T_INNER;
