@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -264.44443393636715,
-    "scrollLeft": -274.9999890724821,
-    "zoomLevel": 0.8,
+    "scrollTop": -285.27776644185815,
+    "scrollLeft": -454.9999819199249,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -189,7 +189,7 @@
           "active": false,
           "left": 83.3334,
           "top": 230.6252,
-          "zIndex": 10,
+          "zIndex": 7,
           "widthName": 164.98876953125,
           "widthComment": 60
         },
@@ -274,7 +274,7 @@
           "active": false,
           "left": 773.7052,
           "top": 336.2492,
-          "zIndex": 7,
+          "zIndex": 6,
           "widthName": 115.41357421875,
           "widthComment": 70.61181640625
         },
@@ -537,10 +537,10 @@
       {
         "value": "회원 정보에 대한 업무 ",
         "ui": {
-          "active": false,
+          "active": true,
           "left": 1184.58329420951,
           "top": 493.95831767883726,
-          "zIndex": 5,
+          "zIndex": 8,
           "width": 155.3333322074679,
           "height": 100
         },
